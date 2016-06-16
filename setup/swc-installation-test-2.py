@@ -87,29 +87,29 @@ CHECKS = [
 # Editors
     'virtual-editor',
 # Browsers
-    'virtual-browser',
+    #'virtual-browser',
 # Version control
     'git',
-    'hg',              # Command line tool
+    #'hg',              # Command line tool
     #'mercurial',       # Python package
-    'EasyMercurial',
+    #'EasyMercurial',
 # Build tools and packaging
-    'make',
-    'virtual-pypi-installer',
-    'setuptools',
+    #'make',
+    #'virtual-pypi-installer',
+    #'setuptools',
     #'xcode',
 # Testing
-    'nosetests',       # Command line tool
-    'nose',            # Python package
-    'py.test',         # Command line tool
-    'pytest',          # Python package
+    #'nosetests',       # Command line tool
+    #'nose',            # Python package
+    #'py.test',         # Command line tool
+    #'pytest',          # Python package
 # SQL
-    'sqlite3',         # Command line tool
-    'sqlite3-python',  # Python package
+    #'sqlite3',         # Command line tool
+    #'sqlite3-python',  # Python package
 # Python
     'python',
     'ipython',         # Command line tool
-    'IPython',         # Python package
+    #'IPython',         # Python package
     'argparse',        # Useful for utility scripts
     'numpy',
     'scipy',
@@ -936,17 +936,17 @@ for name,long_name,dependencies in [
             'sh',
             )),
         ('virtual-editor', 'text/code editor', (
-            'emacs',
-            'xemacs',
-            'vim',
-            'vi',
+            #'emacs',
+            #'xemacs',
+            #'vim',
+            #'vi',
             'nano',
-            'gedit',
-            'kate',
-            'notepad++',
-            'sublime-text',
-            'textmate',
-            'textwrangler',
+            #'gedit',
+            #'kate',
+            #'notepad++',
+            #'sublime-text',
+            #'textmate',
+            #'textwrangler',
             'other-editor',  # last because it requires user interaction
             )),
         ('virtual-browser', 'web browser', (
